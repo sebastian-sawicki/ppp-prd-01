@@ -1,7 +1,7 @@
 # RDP-003: Portfolio — szczegół realizacji
 
 **Status:** propozycja do akceptacji  
-**Powiązane dokumenty:** RDP-002, RDP-004, RDP-005  
+**Powiązane dokumenty:** RDP-002, RDP-004, RDP-005, RDP-006, RDP-007  
 **Zakres:** podstrony pojedynczych realizacji pod adresem `/portfolio/[slug]/`
 
 ## 1. Cel
@@ -19,7 +19,7 @@ Każda podstrona realizacji opowiada pełną historię projektu: czym był, dla 
 7. Wezwanie do działania prowadzące do `/kontakt/`.
 8. Wspólna stopka.
 
-Opis realizacji jest tworzony w Markdownie. Musi umożliwiać redakcji użycie nagłówków, akapitów, list, linków, cytatów oraz dodatkowych zdjęć osadzonych w treści. Zdjęcia umieszczone w treści są częścią opowieści i nie zastępują galerii końcowej.
+Opis realizacji jest tworzony w Markdownie. Musi umożliwiać redakcji użycie nagłówków, akapitów, list, linków, cytatów oraz dodatkowych zdjęć osadzonych w treści. Autor wskazuje zdjęcia w treści podczas tworzenia Markdowna, korzystając wyłącznie z plików należących do tej samej realizacji. Zdjęcie użyte w opisie może być tym samym plikiem, który występuje w galerii końcowej.
 
 ## 3. Dane realizacji
 
@@ -39,10 +39,14 @@ Każda realizacja wymaga co najmniej następujących informacji:
 | Wyróżniona | wartość określająca kolejność na liście |
 | Data | data realizacji lub data publikacji, do celów sortowania i metadanych |
 
+Wszystkie te metadane są zapisane wraz z plikami realizacji na dysku. Na ich podstawie Astro podczas budowania automatycznie tworzy siatkę kart Portfolio. Nie jest wymagane ręczne dopisywanie realizacji do osobnej listy ani pobieranie danych przez przeglądarkę.
+
+Zdjęcie hero jest wskazywane w metadanych danej realizacji w chwili tworzenia wpisu. To dokładnie ten sam obraz, który jest wyświetlany jako zdjęcie reprezentacyjne na karcie w siatce Portfolio.
+
 ## 4. Zasady treści i SEO
 
 - Tytuł realizacji jest jedynym nagłówkiem H1 strony.
-- Nazwy kategorii są prezentowane jako linki lub etykiety, bez udawania przycisków filtrowania, ponieważ filtrowanie nie jest objęte zakresem.
+- Nazwy kategorii są prezentowane jako zwykłe etykiety lub linki do właściwych, wcześniej zdefiniowanych stron.
 - Informacja „Dla kogo” jest przedstawiona jako zwykła, łatwa do odczytania informacja tekstowa.
 - Pełny opis ma wyjaśniać kontekst, zakres prac, efekt i najważniejsze cechy realizacji naturalnym językiem; nie może być wyłącznie zbiorem słów kluczowych.
 - Każda realizacja otrzymuje unikalne metadane `title` i `description`, wynikające z jej tytułu i krótkiego opisu.
@@ -62,4 +66,3 @@ Każda realizacja wymaga co najmniej następujących informacji:
 3. Autor treści może dodać bogaty tekst i obrazy za pomocą Markdowna bez tworzenia osobnej strony.
 4. Na stronie widoczne są kategorie i informacja „Dla kogo”.
 5. Po treści dostępna jest galeria oraz przejście do strony kontaktowej.
-

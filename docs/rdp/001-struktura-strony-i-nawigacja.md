@@ -78,7 +78,7 @@ Zestaw kategorii może zostać rozszerzony lub zmieniony na etapie osobnego RDP 
 
 `/portfolio/` prezentuje listę realizacji jako karty. Każda karta prowadzi do strony pojedynczej realizacji `/portfolio/[slug]/`.
 
-Każda realizacja może należeć do jednej lub wielu kategorii oferty. Powiązanie to będzie wykorzystane później do filtrowania portfolio i do linków między usługami a realizacjami; nie jest wymagane w pierwszej wersji układu.
+Każda realizacja może należeć do jednej lub wielu kategorii oferty. Powiązanie to będzie wykorzystane do tworzenia linków między usługami a realizacjami; nie jest wymagane w pierwszej wersji układu.
 
 ### 4.4. Blog
 
@@ -123,7 +123,7 @@ Na stronie głównej mogą znaleźć się również sekcje wspierające decyzję
 
 - dokładna zawartość i kolejność sekcji strony głównej,
 - pełna lista usług i zakres każdej podstrony oferty,
-- model danych oraz filtry portfolio,
+- model danych oraz ewentualne strony kategorii portfolio,
 - model wpisów, kategorie i paginacja bloga,
 - formularz kontaktowy, polityka prywatności i obsługa zgód,
 - języki serwisu oraz ewentualne wersje wielojęzyczne.

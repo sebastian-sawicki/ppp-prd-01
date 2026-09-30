@@ -43,7 +43,7 @@ Nazwy plików muszą być jednoznaczne i czytelne, małymi literami, z wyrazami 
 
 Galeria jest niezależnym komponentem, który można wykorzystać na stronie szczegółowej realizacji oraz w innych miejscach witryny, np. na stronie głównej, w ofercie lub w artykule blogowym. Komponent przyjmuje lokalną listę obrazów z ich tekstami alternatywnymi oraz opcjonalny tytuł sekcji; nie jest na stałe związany z Portfolio.
 
-Na stronie szczegółowej realizacji galeria jest ostatnią częścią merytoryczną, przed wezwaniem do kontaktu. Lista zdjęć galerii jest generowana z plików zapisanych w katalogu tej realizacji. Zdjęcie hero może, ale nie musi, należeć do tej listy.
+Na stronie szczegółowej realizacji galeria jest ostatnią częścią merytoryczną. Lista zdjęć galerii jest generowana z plików zapisanych w katalogu tej realizacji. 
 
 - Zdjęcia są przedstawione w responsywnej siatce.
 - Na telefonie układ pozostaje czytelny i wygodny do dotknięcia; na większych ekranach liczba kolumn może wzrosnąć.

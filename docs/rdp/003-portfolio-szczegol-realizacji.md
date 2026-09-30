@@ -37,6 +37,7 @@ Każda realizacja wymaga co najmniej następujących informacji:
 | Pełny opis | bogata treść w Markdownie |
 | Galeria | co najmniej jedno zdjęcie, jeśli jest dostępne |
 | Wyróżniona | wartość określająca kolejność na liście |
+| Kolejność redakcyjna | liczba określająca kolejność wyświetlania w obrębie realizacji wyróżnionych albo pozostałych; niższa wartość jest wyświetlana wcześniej |
 | Data | data realizacji lub data publikacji, do celów sortowania i metadanych |
 
 Wszystkie te metadane są zapisane wraz z plikami realizacji na dysku. Na ich podstawie Astro podczas budowania automatycznie tworzy siatkę kart Portfolio. Nie jest wymagane ręczne dopisywanie realizacji do osobnej listy ani pobieranie danych przez przeglądarkę.

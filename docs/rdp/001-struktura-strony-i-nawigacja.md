@@ -126,4 +126,4 @@ Na stronie głównej mogą znaleźć się również sekcje wspierające decyzję
 - model danych oraz ewentualne strony kategorii portfolio,
 - model wpisów, kategorie i paginacja bloga,
 - formularz kontaktowy, polityka prywatności i obsługa zgód,
-- języki serwisu oraz ewentualne wersje wielojęzyczne.
+- W pierwszej wersji serwis jest dostępny wyłącznie po polsku, jako język domyślny. Architektura treści i adresów URL ma umożliwić późniejsze dodanie wersji angielskiej, ale nie jest ona wdrażana ani projektowana w obecnym zakresie.
